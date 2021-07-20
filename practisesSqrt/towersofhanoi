@@ -1,0 +1,18 @@
+'''
+The Towers of Hanoi
+Very easy to solve with recursion
+hard with iteration
+'''
+
+def printMove(fr, to):
+	print ("move from " + str(fr) + " to " + str(to))
+
+def TowerHanoi(n, fr, to, spare):
+	if n == 1:
+		printMove(fr, to)
+	else:
+		TowerHanoi(n-1, fr, spare, to)
+		TowerHanoi(1, fr, to, spare)
+		TowerHanoi(n-1, spare, to, fr)
+
+print (TowerHanoi(3, "A", "B", "C"))

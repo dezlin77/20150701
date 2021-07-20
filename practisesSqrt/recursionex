@@ -1,0 +1,10 @@
+'''
+This is an example of an recurison, using a*b
+'''
+def multi_recur(a, b):
+	if b == 1:
+		return a
+	else:
+		return a + multi_recur(a, b-1)
+
+print (multi_recur(3,4))
