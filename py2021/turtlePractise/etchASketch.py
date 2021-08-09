@@ -3,7 +3,6 @@ from turtle import Turtle, Screen
 tim = Turtle()
 screen = Screen()
 
-
 def move_forwards():
     tim.forward(10)
 
@@ -32,3 +31,4 @@ screen.onkey(turn_right, "Right")
 screen.onkey(clear, "c")
 
 screen.exitonclick()
+
