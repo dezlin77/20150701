@@ -11,12 +11,12 @@ colors = [
   "blue",
   "purple"
 ]
-y_positions = [-70, -40, -10, 20]
+y_positions = [-70, -40, -10, 20 50, 80]
 
 for turtle_index in range(0,6):
   tim = Turtle(shape = "turtle")
   timp.penup()
-  tim.goto(x=-230, y=-100)
+  tim.goto(x=-230, y=y_positions[turtle_index])
   
  
 screen.exitonclick()
