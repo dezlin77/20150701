@@ -11,7 +11,7 @@ colors = [
   "blue",
   "purple"
 ]
-y_positions = []
+y_positions = [-70, -40, -10, 20]
 
 for turtle_index in range(0,6):
   tim = Turtle(shape = "turtle")
