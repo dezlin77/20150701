@@ -12,6 +12,11 @@ with open("text1.txt") as file:
 with open("text1.txt", mode="a") as file:
   file.write("\nnew text.")
   
+  
+#CSV file
+with open("weather_data.csv") as data_file:
+  data = data_file.readlines()
+  print(data)
 
 
 #https://brucefwebster.com/2013/09/13/the-real-software-crisis-byte-magazine-january-1996/
