@@ -26,7 +26,13 @@ with open("weather_data.csv") as data_file:
   for row in data:
     print(row)
 
-  
+#OR
+
+import pandas
+
+data = pandas.read_csv("weather_data.csv")
+print(data)
+print(data["temp"])
   
   
 #https://brucefwebster.com/2013/09/13/the-real-software-crisis-byte-magazine-january-1996/
