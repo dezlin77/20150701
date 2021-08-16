@@ -2,7 +2,7 @@
 file = open("text1.txt")
 contents = file.read()
 print(contents)
-
+file.close()
 
 
 
