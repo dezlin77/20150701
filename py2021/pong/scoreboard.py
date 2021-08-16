@@ -29,4 +29,4 @@ class Scoreboard(Turtle):
         
         
 
-print("this is the end")
+print("this is good")
