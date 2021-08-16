@@ -4,7 +4,10 @@ contents = file.read()
 print(contents)
 file.close()
 
-
+OR
+with open("text1.txt") as file:
+  contents = file.read()
+  print(contents)
 
 
 #https://brucefwebster.com/2013/09/13/the-real-software-crisis-byte-magazine-january-1996/
