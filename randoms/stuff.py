@@ -36,6 +36,11 @@ print(data["temp"])
 
 data_dict = data.to_dict()
 print(data_dict)
+
+temp_list = data["temp"].to_list()
+print(len(temp_list))
+
+print(data["temp"].mean())
   
 #https://brucefwebster.com/2013/09/13/the-real-software-crisis-byte-magazine-january-1996/
 
