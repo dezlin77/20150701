@@ -3,7 +3,9 @@ import pandas
 
 screen = turtle.Screen()
 screen.title("U.S. States Game")
+#load the gif file (turtle only works with gifs sadly) into the screen
 image = "blank_states_img.gif"
+#add the gif file to become our screen
 screen.addshape(image)
 turtle.shape(image)
 
