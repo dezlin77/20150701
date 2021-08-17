@@ -33,7 +33,9 @@ import pandas
 data = pandas.read_csv("weather_data.csv")
 print(data)
 print(data["temp"])
-  
+
+data_dict = data.to_dict()
+print(data_dict)
   
 #https://brucefwebster.com/2013/09/13/the-real-software-crisis-byte-magazine-january-1996/
 
