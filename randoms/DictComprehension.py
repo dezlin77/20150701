@@ -13,7 +13,14 @@ sentence = "hi how are you how do you do?"
 result = {word:len(word) for word in sentence.split()}
 print(result)
 
-
-
-
+#convert celcius to fahrenheit
+weather_c = {
+  "Monday": 12,
+  "Tue": 17,
+  "Wed": 18,
+  "Thurs": 21,
+  "Fri": 17,
+}
+weather_f = {day:(temp_c*9/5)+32 for (day, temp_c) in weather_c.items()}
+print(result)
 
