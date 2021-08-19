@@ -14,3 +14,6 @@ even_numbers = [n for n in numbers if n % 2 == 0]
 
 print(even_numbers)
 
+#compare two docs, and combine numbers common in both files
+
+
