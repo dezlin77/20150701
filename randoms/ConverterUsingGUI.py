@@ -19,7 +19,7 @@ is_equal_label.grid(column=2, row=0)
 
 kilometer_result_label = Label(text="0")
 kilometer_label = Label(text="km")
-calculate_button = Button(text="Calculate")
+calculate_button = Button(text="Calculate", command=miles_to_km)
 calculate_button.grid(column=1, row=2)
 
 
