@@ -6,7 +6,7 @@ def add(*args):
 
     
     
-print(add(3, 5, 7))
+print(add(3, 5, 7, 11, 17))
 
 
 
