@@ -9,5 +9,10 @@ except:
   file = open("a_file.txt", "w")
 #if there's no a_file, create one.
 
-
+else:
+  content = file.read()
+  print(content)
+finally:
+  file.close()
+  print("file closed")
 
