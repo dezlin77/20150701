@@ -13,6 +13,7 @@ else:
   content = file.read()
   print(content)
 finally:
-  file.close()
-  print("file closed")
+#  file.close()
+#  print("file closed")
+  raise KeyError
 
