@@ -1,6 +1,6 @@
 import smtplib
 
-#remember to turn off security in gmail!
+#remember to turn off security in gmail! allow less secure apps
 
 my_email = "desean@gmail.com"
 password = "abcd1234()"
