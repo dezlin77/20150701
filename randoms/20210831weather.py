@@ -1,5 +1,4 @@
-#Note! For the code to work you need to replace all the placeholders with
-#Your own details. e.g. account_sid, lat/lon, from/to phone numbers.
+#replace all the placeholders
 
 import requests
 import os
@@ -12,8 +11,8 @@ account_sid = "YOUR ACCOUNT SID"
 auth_token = os.environ.get("AUTH_TOKEN")
 
 weather_params = {
-    "lat": "YOUR LATITUDE",
-    "lon": "YOUR LONGITUDE",
+    "lat": "21.940882",
+    "lon": "120.808201",
     "appid": api_key,
     "exclude": "current,minutely,daily"
 }
