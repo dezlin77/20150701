@@ -74,11 +74,6 @@ for exercise in result["exercises"]:
 
 
 
-
-
-
-
-
 ######################################3
 
 import requests
