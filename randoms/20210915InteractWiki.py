@@ -19,5 +19,16 @@ search.send_keys(Keys.ENTER)
 
 =====================
 
+driver.get("www.website.com/wefsf/wer")
+
+first_name = driver.find_element_by_name("fName")
+first_name.send_keys("dez")
+last_name = driver.find_element_by_name("lName")
+last_name.send_keys("line")
+email = driver.find_element_by_name("email")
+email.send_keys("dez@dez.com")
+
+submit = driver.find_element_by_css_selector("form button")
+submit.click()
 
 
