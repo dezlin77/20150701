@@ -33,6 +33,8 @@ email_input = driver.find_element_by_id('email')
 password_input = driver.find_element_by_id('pass')
 
 email_input.send_keys(email)
+
+
 password_input.send_keys(password)
 password_input.send_keys(Keys.ENTER)
 
