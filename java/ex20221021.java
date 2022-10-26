@@ -34,3 +34,7 @@ System.out.print("this line runs no matter what");
 boolean isHot = true;
 while(isHot) {}
 
+//lists
+String[] wordListOne = {
+"opinion", "cool", "yay", "type"
+};
