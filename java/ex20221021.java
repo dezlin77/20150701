@@ -27,5 +27,10 @@ if (x==10) {
 }
 System.out.print("this line runs no matter what");
 
+//boolean example
+//NOT int x = 1
+//NOT whilte (x){}
 
+boolean isHot = true;
+while(isHot) {}
 
